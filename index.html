@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI de Sueldos</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Incluir Chart.js desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>KPIs del Sueldo en la Empresa</h1>
+
+    <div class="kpi">
+        <h2>Total de Sueldos: <span id="totalSueldos">$0</span></h2>
+    </div>
+    <div class="kpi">
+        <h2>Promedio de Sueldos: <span id="sueldoPromedio">$0</span></h2>
+    </div>
+    <div class="kpi">
+        <h2>Cantidad de Empleados: <span id="cantidadEmpleados">0</span></h2>
+    </div>
+    
+    <!-- Aquí agregamos el gráfico para visualizar los sueldos -->
+    <canvas id="sueldoChart" width="400" height="200"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
